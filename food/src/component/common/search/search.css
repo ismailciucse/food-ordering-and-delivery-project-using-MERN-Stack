@@ -1,0 +1,29 @@
+.food-search {
+  background-image: url(../../../../public/img/search-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10% 0;
+  background-attachment: fixed;
+  padding-top: 16%;
+}
+/* .food-search h2 {
+  background: #44bd32;
+} */
+
+.search-food-form input[type="search"] {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: -4px;
+}
+.search-food-form ::placeholder {
+  font-size: 14px;
+}
+@media screen and (max-width: 576px) {
+  .food-search {
+    padding-top: 26%;
+  }
+}

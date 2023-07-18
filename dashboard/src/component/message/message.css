@@ -1,0 +1,21 @@
+.message-item {
+  width: 70%;
+  margin: 0 auto;
+}
+.single-message {
+  padding: 30px 30px;
+  font-size: 15px;
+}
+.single-message .btn-delete {
+  background: #ff0000;
+  border-radius: 5px;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 7px 50px;
+  transition: 0.5s;
+  border: 0;
+  display: inline-block;
+  margin: 15px 0px;
+  margin-left: 15px;
+}

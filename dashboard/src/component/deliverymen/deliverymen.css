@@ -1,0 +1,65 @@
+.delivery-men .btn-primary {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.profile-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+.profile-items img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.profile-items .left,
+.profile-items .right {
+  border: 1px solid #ced4da;
+  text-align: center;
+  padding: 15px;
+  height: fit-content;
+}
+.profile-items .left .card {
+  margin-bottom: 10px;
+}
+.profile-items .left ul {
+  text-align: left;
+  font-size: 14px;
+}
+.profile-items .left ul b {
+  margin-right: 5px;
+}
+.single-customer .btn-delete {
+  background: #ff0000;
+  border-radius: 5px;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 30px;
+  transition: 0.5s;
+  border: 0;
+  display: inline-block;
+  margin: 0;
+}
+.single-customer .btn-primary {
+  padding: 6px 37px;
+}
+
+.profile-items .right a {
+  display: inline-block;
+  margin: 10px 0;
+}
+.single-customer .right table.customers-order tr td {
+  padding: 0;
+}
+.single-customer .reviews {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+}
+.single-customer .pagination li a {
+  margin: 3px;
+}

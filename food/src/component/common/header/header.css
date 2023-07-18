@@ -1,0 +1,270 @@
+/* CSSS for navbar section */
+/* .navbar {
+  margin-top: 80px;
+} */
+.navbar-menu {
+  padding: 10px 0;
+  background: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.site-top-nav {
+  background: #fff;
+  padding: 0;
+  box-shadow: 2px -4px 13px 0px #000;
+}
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  top: 0;
+}
+.navbar-fixed-top .container {
+  padding: 0;
+}
+.logo {
+  width: 10%;
+  float: left;
+  padding: 5px 5px;
+}
+.menu {
+  line-height: 60px;
+  position: relative;
+}
+.menu ul {
+  list-style-type: none;
+  width: 80%;
+  float: right;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+.menu ul li:last-of-type {
+  text-align: center;
+}
+.menu ul li a {
+  font-weight: 600;
+}
+.hvr-underline-from-center:before {
+  background: #6c5ce7;
+  height: 2px;
+  bottom: 10px;
+}
+.shopping-cart {
+  /* color: #6c5ce7; */
+  cursor: pointer;
+  font-size: 15px;
+}
+.cart-content {
+  background: #ffffff;
+  width: 430px;
+  position: absolute;
+  right: 0;
+  top: 62px;
+  box-shadow: 0px 4px 10px 0px #bfbfbf;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.cart-content.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.cart-content.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+}
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  display: inline-block;
+  line-height: 50px;
+}
+.cart-table thead {
+  width: 100%;
+  display: table;
+  line-height: 35px;
+}
+.cart-table tbody {
+  overflow-y: scroll;
+  /* display: inline-block; */
+  display: inherit;
+  max-height: 250px;
+  width: 100%;
+}
+.cart-table tbody tr {
+  width: 100%;
+  /* display: table; */
+}
+.empty-cart-row {
+  display: table;
+}
+.empty-cart-row td {
+  text-align: center !important;
+}
+.cart-table td,
+.cart-table th {
+  border-bottom: 1px solid #dddddd;
+  padding: 0px 11px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+}
+.cart-table th {
+  font-weight: bold;
+  border-top: 1px solid #dddddd;
+  text-align: center;
+}
+.confirm-order-thead th {
+  border: 0;
+}
+.cart-table img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+.cart-table button {
+  background: #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 18px;
+  width: 18px;
+  border: 0;
+  overflow: hidden;
+}
+.cart-table button:hover {
+  background: #6c5ce7;
+  color: #fff;
+}
+.cart-table .btn-danger {
+  display: initial;
+}
+.customer-profile-pic .img {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: -15px;
+}
+.customer-profile-pic .img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+.customer-profile-content {
+  background: #ffffff;
+  min-width: 160px;
+  position: absolute;
+  right: -20px;
+  top: 62px;
+  box-shadow: 0px 4px 10px 0px #bfbfbf;
+  padding: 10px 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.customer-profile-content.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.customer-profile-content.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+}
+
+.customer-profile-content ul {
+  list-style-type: none;
+  width: 100%;
+  float: none;
+}
+.customer-profile-content ul li {
+  display: block;
+  line-height: 40px;
+}
+.customer-profile-content ul li p {
+  font-style: 14px;
+}
+
+.mobile-menu-bar {
+  background: #44bd32;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 5px;
+  float: right;
+  margin: 13px 0;
+  display: none;
+}
+.mobileNav {
+  display: none;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px #bfbfbf;
+  top: 65px;
+  left: 0;
+  right: 0;
+}
+
+.mobileNav ul {
+  width: 100%;
+  text-align: center;
+}
+.cart-content-2 {
+  line-height: 2;
+}
+.cart-content-2 h3 {
+  font-size: initial;
+}
+.cart-content-2 td,
+.cart-content-2 th {
+  font-size: 13px;
+  line-height: 2;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    width: 14%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .mobile-menu-bar {
+    display: inline-block;
+  }
+  .mobileMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logo {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cart-content {
+    max-width: 430px;
+    top: 120px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .logo {
+    width: 40%;
+  }
+}

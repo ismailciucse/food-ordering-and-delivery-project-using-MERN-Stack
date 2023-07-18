@@ -1,0 +1,31 @@
+.login {
+  padding: 5% 0;
+}
+
+.login-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px 35px;
+  box-shadow: 0 0 10px 0px #1a171780;
+  border-radius: 5px;
+}
+.login-form img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+.login-form input {
+  padding: 10px 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+.login input.btn-primary {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.login-form a {
+  margin-top: 15px;
+  display: block;
+}

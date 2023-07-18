@@ -1,0 +1,41 @@
+.profile-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+.profile-items img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.profile-items .left,
+.profile-items .right {
+  border: 1px solid #ced4da;
+  text-align: center;
+  padding: 30px 30px;
+}
+.profile-items .left .card {
+  margin-bottom: 10px;
+}
+.profile-items .left ul {
+  text-align: left;
+}
+.profile-items .left ul b {
+  margin-right: 5px;
+}
+.single-customer .btn-delete {
+  background: #ff0000;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 7px 45px;
+  transition: 0.5s;
+  border: 0;
+  display: inline-block;
+}
+.profile-items .right a {
+  display: inline-block;
+  margin: 10px 0;
+}

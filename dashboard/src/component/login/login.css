@@ -1,0 +1,24 @@
+.login {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.login-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px 35px;
+  box-shadow: 0 0 20px 2px #1a171780;
+  border-radius: 5px;
+  margin-top: 150px;
+}
+.login-form input {
+  padding: 10px 10px;
+  width: 100%;
+  margin: 10px 0;
+  outline: 0;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,32 @@
+.categories {
+  background: url(../../../public/img/category-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+.categories .items {
+  border-radius: 5px;
+}
+.categories .box-3 {
+  overflow: hidden;
+  border-radius: 7px;
+  width: 100%;
+}
+.categories .box-3 .category-thumb {
+  overflow: hidden;
+  padding: 15px 15px;
+  height: 240px;
+}
+.categories .box-3 img {
+  transition: 0.5s;
+  width: 80%;
+}
+.categories .box-3:hover img {
+  transform: scale(1.15);
+}
+.category-title h4 {
+  background: #2f3542;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}

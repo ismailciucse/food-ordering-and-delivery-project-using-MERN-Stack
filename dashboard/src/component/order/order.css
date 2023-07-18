@@ -1,0 +1,90 @@
+/* .order-items {
+  overflow-x: auto;
+} */
+.order-items table {
+  margin-bottom: 10px;
+}
+
+.edit-order-item {
+  width: 70%;
+  margin: 0 auto;
+}
+.edit-order {
+  padding: 30px 30px;
+  font-size: 15px;
+}
+.edit-order .btn-primary {
+  display: inline-block;
+  margin: 15px 0px;
+}
+.edit-order img {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+.edit-order b {
+  margin-right: 5px;
+}
+.edit-order input[type="number"] {
+  width: 50px;
+  outline: 0;
+}
+.single-order .order-items table tr:last-of-type th {
+  background: none;
+  color: #2f3542;
+  font-weight: bold;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.order-summury div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  height: fit-content;
+}
+.order-summury div h5 {
+  text-align: center;
+}
+.order-summury div ul {
+  margin: 0;
+  padding: 0;
+}
+.order-summury div ul li {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.order-summury div ul li:last-of-type {
+  border-bottom: 1px solid #ddd;
+}
+.single-order .btn {
+  width: 100%;
+  margin-top: 15px;
+}
+.single-order .btn-box .btn-delete {
+  background: #ff0000;
+  border-radius: 5px;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 7px 45px;
+  transition: 0.5s;
+  border: 0;
+  display: inline-block;
+  margin: 15px 0px;
+  margin-left: 15px;
+}
+.single-order input[type="texr"] {
+  width: 100%;
+}
+.single-order form {
+  padding: 0;
+  border: 0;
+}

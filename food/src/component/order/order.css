@@ -1,0 +1,122 @@
+.order {
+  padding: 70px 0;
+}
+.order .container {
+  background: #fff;
+  padding: 0;
+}
+.order table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.order table img {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+.order table tr {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+.order table tr th,
+.order table tr td {
+  border-bottom: 1px solid #dddddd;
+  padding: 8px 8px;
+  text-align: center;
+}
+.order table tr td {
+  color: #2f3542;
+}
+.order table tr td span.item-qty {
+  border: 1px solid #ddd;
+  height: 27px;
+  width: 27px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.order table th {
+  border-top: 1px solid #181b3a;
+  background: #181b3a;
+  color: #fff;
+  font-weight: normal;
+}
+.order tr:nth-child(odd) {
+  background-color: #ebe8e8;
+}
+.order table tr:hover {
+  background-color: #dddddd;
+}
+.order-items table a {
+  color: #2f3542;
+}
+.order-items a:hover {
+  color: #6c5ce7;
+}
+.order-items .danger-btn {
+  color: #fff;
+}
+.order-items .danger-btn:hover {
+  color: #fff;
+}
+.order-items .btn-primary {
+  border: 0;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+.order-form fieldset {
+  border: 1px solid #bfbbbb;
+}
+.order-form fieldset legend {
+  font-size: 23px;
+  color: #2f3542;
+}
+.order-form {
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0px #1a171780;
+  padding: 7px 0;
+  border-radius: 3px;
+}
+.order-form .order-label {
+  margin-bottom: 7px;
+}
+.order-form input[type="text"],
+.order-form input[type="tel"],
+.order-form input[type="email"],
+.order-form input[type="submit"],
+.order-form select {
+  width: 100%;
+  padding: 9px;
+  font-size: 14px;
+  border: 1px solid #bfbbbb;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: 0;
+}
+.order-form select option {
+  background-color: #ddd;
+}
+.order-form input[type="radio"] {
+  margin: 10px 10px;
+}
+.order input[type="submit"] {
+  width: 30%;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.payment-logo {
+  width: 60px;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  .order-form {
+    width: 100%;
+  }
+}
+.order-items {
+  overflow-x: auto;
+}
